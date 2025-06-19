@@ -16,7 +16,7 @@ namespace ProductPortalAPI.Controllers
         public AuthController(AppDbContext context, AuthService authService)
         {
             _context = context;
-            _authService = authService; 
+            _authService = authService;
         }
 
         [HttpPost("register")]
@@ -43,14 +43,14 @@ namespace ProductPortalAPI.Controllers
         [HttpPost("login")]
         public IActionResult Login(UserLoginDto request)
         {
-            var user = _context.Users.FirstOrDefault(u =>  u.Username == request.Username);
+            var user = _context.Users.FirstOrDefault(u => u.Username == request.Username);
             if (user == null)
                 return BadRequest("Korisnik ne postoji.");
             if (!_authService.VerifyPassword(request.Password, user.PasswordHash))
                 return BadRequest("Pogrešna lozinka.");
 
             var token = _authService.CreateToken(user);
-            return Ok(new {token});
+            return Ok(new { token });
         }
     }
 }
