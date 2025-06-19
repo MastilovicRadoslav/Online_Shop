@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\AltitudeIT\\ProductPortalAPI\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{090DBB9F-B3CC-45AA-9369-066B5D79F017}|ProductPortalAPI\\ProductPortalAPI.csproj|c:\\users\\lenovo\\desktop\\altitudeit\\productportalapi\\productportalapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{090DBB9F-B3CC-45AA-9369-066B5D79F017}|ProductPortalAPI\\ProductPortalAPI.csproj|solutionrelative:productportalapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{090DBB9F-B3CC-45AA-9369-066B5D79F017}|ProductPortalAPI\\ProductPortalAPI.csproj|c:\\users\\lenovo\\desktop\\altitudeit\\productportalapi\\productportalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{090DBB9F-B3CC-45AA-9369-066B5D79F017}|ProductPortalAPI\\ProductPortalAPI.csproj|solutionrelative:productportalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{090DBB9F-B3CC-45AA-9369-066B5D79F017}|ProductPortalAPI\\ProductPortalAPI.csproj|c:\\users\\lenovo\\desktop\\altitudeit\\productportalapi\\productportalapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{090DBB9F-B3CC-45AA-9369-066B5D79F017}|ProductPortalAPI\\ProductPortalAPI.csproj|solutionrelative:productportalapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{090DBB9F-B3CC-45AA-9369-066B5D79F017}|ProductPortalAPI\\ProductPortalAPI.csproj|c:\\users\\lenovo\\desktop\\altitudeit\\productportalapi\\productportalapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{090DBB9F-B3CC-45AA-9369-066B5D79F017}|ProductPortalAPI\\ProductPortalAPI.csproj|solutionrelative:productportalapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,63 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0849e941-4665-42e5-8dd0-e4c8da15dbd0}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AltitudeIT\\ProductPortalAPI\\ProductPortalAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "ProductPortalAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AltitudeIT\\ProductPortalAPI\\ProductPortalAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "ProductPortalAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T11:59:00.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AltitudeIT\\ProductPortalAPI\\ProductPortalAPI\\Program.cs",
-              "RelativeDocumentMoniker": "ProductPortalAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AltitudeIT\\ProductPortalAPI\\ProductPortalAPI\\Program.cs",
-              "RelativeToolTip": "ProductPortalAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T11:57:13.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AltitudeIT\\ProductPortalAPI\\ProductPortalAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ProductPortalAPI\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AltitudeIT\\ProductPortalAPI\\ProductPortalAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ProductPortalAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-18T11:56:26.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AltitudeIT\\ProductPortalAPI\\ProductPortalAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "ProductPortalAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AltitudeIT\\ProductPortalAPI\\ProductPortalAPI\\appsettings.json",
-              "RelativeToolTip": "ProductPortalAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-18T11:55:53.845Z",
-              "EditorCaption": ""
             }
           ]
         }
