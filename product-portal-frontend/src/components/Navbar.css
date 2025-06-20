@@ -1,0 +1,35 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding: 25px 0;
+  background-color: transparent;
+  position: relative;
+  z-index: 10;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #4b0082;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #b210ff;
+  text-decoration: underline;
+}
+
+.navbar {
+  border-bottom: none; /* Dodaj ovo ako slučajno postoji */
+  box-shadow: none;    /* Dodaj ako koristiš sjenku */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
