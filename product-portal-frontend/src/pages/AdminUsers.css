@@ -1,0 +1,38 @@
+.page-container {
+  padding: 2rem;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.users-table th,
+.users-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.users-table th {
+  background-color: #f0f0f0;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 6px 12px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #ffd700;
+}
+
+.delete-btn {
+  background-color: #ff4d4f;
+  color: white;
+}

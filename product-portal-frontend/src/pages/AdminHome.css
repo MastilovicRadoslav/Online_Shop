@@ -1,0 +1,89 @@
+.admin-home {
+  padding: 60px 80px;
+  font-family: sans-serif;
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  flex: 0 1 300px;
+  background: #eee;
+  border-radius: 20px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.05);
+}
+
+.stat-box h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.stat-box.purple h1 {
+  color: #b210ff;
+}
+
+.stat-box.yellow h1 {
+  color: #eece13;
+}
+
+.quick-actions {
+  margin-top: 20px;
+}
+
+.quick-actions h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.action-box {
+  flex: 0 1 300px;
+  background: #eee;
+  border-radius: 20px;
+  padding: 40px 30px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.05);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+
+.quick-actions {
+  margin-top: 40px;
+  text-align: left; /* poravnaj ulijevo */
+  padding-left: 10px; /* ili više po potrebi */
+}
+
+.dashboard-content {
+  padding: 40px;
+  max-width: 750px; /* opcionalno */
+  margin: 0 auto;
+}
+
+.quick-actions h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+}
