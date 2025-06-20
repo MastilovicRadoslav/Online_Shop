@@ -1,0 +1,41 @@
+/* File: src/pages/AddProduct.css */
+.add-product-form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.add-product-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.add-product-form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.add-product-form button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #b210ff, #eece13);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.error-msg {
+  color: red;
+  margin-bottom: 10px;
+  text-align: center;
+}
