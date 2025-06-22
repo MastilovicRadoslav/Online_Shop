@@ -27,6 +27,10 @@ namespace ProductPortalAPI.Controllers
 
             var user = new User
             {
+                FirstName = request.FirstName,
+                LastName = request.LastName,
+                ContactNumber = request.ContactNumber,
+                ImageUrl = request.ImageUrl,
                 Username = request.Username,
                 Email = request.Email,
                 PasswordHash = _authService.HashPassword(request.Password),
