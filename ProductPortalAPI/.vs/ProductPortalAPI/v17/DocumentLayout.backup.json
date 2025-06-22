@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\AltitudeIT\\ProductPortalAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{090DBB9F-B3CC-45AA-9369-066B5D79F017}|ProductPortalAPI\\ProductPortalAPI.csproj|c:\\users\\lenovo\\desktop\\altitudeit\\productportalapi\\productportalapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{090DBB9F-B3CC-45AA-9369-066B5D79F017}|ProductPortalAPI\\ProductPortalAPI.csproj|solutionrelative:productportalapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{090DBB9F-B3CC-45AA-9369-066B5D79F017}|ProductPortalAPI\\ProductPortalAPI.csproj|c:\\users\\lenovo\\desktop\\altitudeit\\productportalapi\\productportalapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{090DBB9F-B3CC-45AA-9369-066B5D79F017}|ProductPortalAPI\\ProductPortalAPI.csproj|solutionrelative:productportalapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{090DBB9F-B3CC-45AA-9369-066B5D79F017}|ProductPortalAPI\\ProductPortalAPI.csproj|c:\\users\\lenovo\\desktop\\altitudeit\\productportalapi\\productportalapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{090DBB9F-B3CC-45AA-9369-066B5D79F017}|ProductPortalAPI\\ProductPortalAPI.csproj|solutionrelative:productportalapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0849e941-4665-42e5-8dd0-e4c8da15dbd0}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AltitudeIT\\ProductPortalAPI\\ProductPortalAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ProductPortalAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AltitudeIT\\ProductPortalAPI\\ProductPortalAPI\\Models\\User.cs",
+              "RelativeToolTip": "ProductPortalAPI\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:44:57.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AltitudeIT\\ProductPortalAPI\\ProductPortalAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ProductPortalAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AltitudeIT\\ProductPortalAPI\\ProductPortalAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ProductPortalAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:39:15.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AltitudeIT\\ProductPortalAPI\\ProductPortalAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ProductPortalAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AltitudeIT\\ProductPortalAPI\\ProductPortalAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ProductPortalAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:30:48.671Z",
+              "EditorCaption": ""
             }
           ]
         }

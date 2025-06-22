@@ -50,8 +50,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "product",
-        "Type": "ProductPortalAPI.Models.Product",
+        "Name": "dto",
+        "Type": "ProductPortalAPI.DTOs.ProductCreateDto",
         "IsRequired": true
       }
     ],
@@ -72,7 +72,7 @@
       },
       {
         "Name": "updatedProduct",
-        "Type": "ProductPortalAPI.Models.Product",
+        "Type": "Product",
         "IsRequired": true
       }
     ],
@@ -83,6 +83,22 @@
     "Method": "GetById",
     "RelativePath": "api/Product/{id}",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductPortalAPI.Controllers.ProductController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -189,6 +205,16 @@
   },
   {
     "ContainingType": "ProductPortalAPI.Controllers.UserController",
+    "Method": "DeleteAllUsers",
+    "RelativePath": "api/User/delete-all",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductPortalAPI.Controllers.UserController",
     "Method": "GetOwnProfile",
     "RelativePath": "api/User/me",
     "HttpMethod": "GET",
@@ -208,6 +234,22 @@
       {
         "Name": "updatedUser",
         "Type": "ProductPortalAPI.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductPortalAPI.Controllers.UserController",
+    "Method": "UpdateProfilePhoto",
+    "RelativePath": "api/User/me/photo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imageName",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
