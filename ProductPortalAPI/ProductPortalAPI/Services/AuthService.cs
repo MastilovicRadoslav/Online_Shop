@@ -31,7 +31,7 @@ namespace ProductPortalAPI.Services
             {
                 new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
                 new Claim(ClaimTypes.Name, user.Username),
-                new Claim(ClaimTypes.Role, user.Role)
+                new Claim("role", user.Role) // 👈 custom claim, kraći ključ
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(
