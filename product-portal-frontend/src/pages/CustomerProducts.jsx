@@ -29,7 +29,7 @@ const CustomerProducts = () => {
                 {products.map((product) => (
                     <div className="product-card" key={product.id}>
                         <img
-                            src={product.imageUrl || "https://via.placeholder.com/150"}
+                            src={`/images/${product.imageUrl}`}
                             alt={product.name}
                         />
                         <div className="product-info">

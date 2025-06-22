@@ -5,6 +5,8 @@ import AuthContext from "../context/AuthContext";
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { FaUser, FaLock } from "react-icons/fa";
+
 
 
 function Login() {
@@ -32,7 +34,7 @@ function Login() {
       if (role === "Admin") {
         navigate("/admin-dashboard/home");
       } else {
-        navigate("/customer-dashboard");
+        navigate("/customer-dashboard/home");
       }
 
     } catch (err) {
@@ -58,32 +60,42 @@ function Login() {
           </span>
         </h1>
         <p className="login-subtitle">Sign in to your account</p>
-
         <form className="login-form" onSubmit={handleSubmit}>
-          <input
-            type="text"
-            name="username"
-            placeholder="Username"
-            value={formData.username}
-            onChange={handleChange}
-            required
-          />
-          <input
-            type="password"
-            name="password"
-            placeholder="Password"
-            value={formData.password}
-            onChange={handleChange}
-            required
-          />
+          <div className="input-icon-wrapper">
+            <FaUser className="input-icon" />
+            <input
+              type="text"
+              name="username"
+              placeholder="Username"
+              value={formData.username}
+              onChange={handleChange}
+              required
+            />
+          </div>
+
+          <div className="input-icon-wrapper">
+            <FaLock className="input-icon" />
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              value={formData.password}
+              onChange={handleChange}
+              required
+            />
+          </div>
+
           {error && <p className="error-msg">{error}</p>}
+
           <button type="submit" className="login-button">
             Login
           </button>
+
           <Link to="/forgot-password" className="forgot-password">
             Forgot your password?
           </Link>
         </form>
+
       </div>
     </div>
   );

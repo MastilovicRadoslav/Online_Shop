@@ -98,3 +98,28 @@
   color: #555;
   text-decoration: none;
 }
+
+.input-icon-wrapper {
+  position: relative;
+  width: 300px;
+  margin: 10px 0;
+}
+
+.input-icon-wrapper input {
+  width: 100%;
+  padding: 15px 15px 15px 45px;
+  border: none;
+  border-radius: 40px;
+  background: #f5f5f5;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: gray;
+  font-size: 1rem;
+}

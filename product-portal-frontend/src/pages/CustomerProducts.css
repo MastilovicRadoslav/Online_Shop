@@ -1,19 +1,29 @@
-/* src/pages/CustomerProducts.css */
-.customer-products {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  padding: 40px;
+.page-container {
+  padding: 20px 550px;
+  margin-top: 50px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+  row-gap: 30px;
+  justify-items: center;
 }
 
 .product-card {
-  width: 200px;
+  width: 100%;
+  max-width: 240px;
   background: white;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
 }
 
 .product-card img {
@@ -22,31 +32,18 @@
   object-fit: cover;
 }
 
-.product-card h4 {
-  margin: 10px 0 0;
+.product-info {
+  padding: 12px;
+  text-align: center;
 }
 
-.product-card p {
+.product-name {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.product-price {
+  font-size: 14px;
   color: gray;
-  margin-bottom: 10px;
 }
-.page-container {
-  display: flex;
-  justify-content: center;   /* horizontalno centriranje */
-  align-items: center;       /* vertikalno centriranje */
-  height: 100vh;             /* zauzmi punu visinu ekrana */
-  background-color: white; /* opcionalna pozadina */
-}
-.customer-dashboard {
-  position: relative;
-  padding: 50px 60px;
-  padding-top: 20px; /* ↓ Smanji ako treba */
-  font-family: sans-serif;
-  min-height: 100vh;
-  background-color: #fff;
-}
-
-.dashboard-container {
-  margin-top: 0px; /* ↓ Ako postoji margin-top, smanji ili ukloni */
-}
-
