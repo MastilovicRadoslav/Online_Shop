@@ -4,7 +4,6 @@ import AdminDashboard from "./pages/AdminDashboard";
 import AdminUsers from "./pages/AdminUsers";
 import AdminHome from "./pages/AdminHome";
 import AdminProducts from "./pages/AdminProducts";
-import AddProduct from "./pages/AddProduct"; // 👈 dodaj import
 import CustomerDashboard from "./pages/CustomerDashboard";
 import { AuthProvider } from "./context/AuthContext";
 import ProtectedRoute from "./components/ProtectedRoute";
@@ -28,7 +27,6 @@ function App() {
           >
             <Route path="home" element={<AdminHome />} />
             <Route path="products" element={<AdminProducts />} />
-            <Route path="products/add" element={<AddProduct />} /> {/* 👈 Ovdje dodaješ */}
             <Route path="users" element={<AdminUsers />} />
             <Route path="profile" element={<Profile />} />
           </Route>
@@ -40,7 +38,7 @@ function App() {
               </ProtectedRoute>
             }
           >
-            <Route index element={<CustomerProducts />} />
+            <Route path="home" element={<CustomerProducts />} />
             <Route path="products" element={<CustomerProducts />} />
             <Route path="profile" element={<Profile />} />
           </Route>
