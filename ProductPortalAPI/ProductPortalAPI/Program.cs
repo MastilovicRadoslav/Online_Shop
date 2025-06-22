@@ -16,6 +16,17 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // Dodaj AuthService kao DI
 builder.Services.AddScoped<AuthService>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", policy =>
+    {
+        policy.WithOrigins("http://localhost:3000")  // React app
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
+
 // Dodaj autentifikaciju sa JWT
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
@@ -73,9 +84,12 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// Dodaj autentifikaciju i autorizaciju
+// Dodaj CORS
+app.UseCors("AllowFrontend");
+
 app.UseAuthentication();
 app.UseAuthorization();
+
 
 app.MapControllers();
 
