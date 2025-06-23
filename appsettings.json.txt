@@ -1,0 +1,15 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=db;Database=ProductPortalDb;User Id=sa;Password=YourStrong!Pass123;"
+  },
+  "Jwt": {
+    "Key": "OvoJeSuperTajniKljucZaJWTToken123!"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
