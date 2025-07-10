@@ -3,6 +3,8 @@
 
 Full Stack aplikacija za upravljanje korisnicima i proizvodima, sa admin i customer rolama. Aplikacija omogućava registraciju, prijavu, upravljanje profilima, dodavanje/brisanje proizvoda, statistiku i još mnogo toga.
 
+Testirana aplikacija: https://www.youtube.com/watch?v=Xo8khJntg8M
+
 ## 🚀 Pokretanje projekta (lokalno bez Docker-a)
 
 ### 1. Kloniraj repozitorijum
