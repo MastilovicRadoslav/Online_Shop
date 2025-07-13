@@ -10,8 +10,8 @@ Testirana aplikacija: https://www.youtube.com/watch?v=Xo8khJntg8M
 ### 1. Kloniraj repozitorijum
 
 ```bash
-git clone https://github.com/username/product-portal.git
-cd product-portal
+git clone https://github.com/MastilovicRadoslav/Online_Shop.git
+cd Online_Shop
 ```
 
 ### 2. Pokreni backend (.NET Web API)
